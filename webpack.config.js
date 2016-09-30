@@ -20,7 +20,7 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loaders: ['react-hot', 'babel'],
+      loaders: ['react-hot-loader/webpack', 'babel'],
       include: path.join(__dirname, 'src')
     }]
   }
